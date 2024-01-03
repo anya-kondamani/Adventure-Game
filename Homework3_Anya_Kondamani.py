@@ -1,36 +1,4 @@
-#Anya Kondamani ak8699@nyu.edu
-#PART ONE
-#Question 1
-def type_of_number(num):
-    if num % 2 == 0:
-        print("even")
-    if num % 3 == 0:
-        print("divisible by three")
-    if num == 0:
-        print("zero")
-    if num % 2 != 0:
-        print("odd")
-    
-#Question 2
-def conditional(num):
-    if num % 2 == 0 and num % 3 != 0:
-        print("True")
-    elif num % 2 != 0 and num % 3 == 0:
-        print("True")
 
-#Question 3
-def generate_truth_table():
-    print("p     	q     	p==q	p!=q	p and q	p or q	not p")
-    def generate_truth_row(p,q):
-        print(p,q,p==q,p!=q,p and q,p or q,not p,sep='\t')
-    return(generate_truth_row(False,False),generate_truth_row(False,True),generate_truth_row(True,False),generate_truth_row(True,True))
-
-#PART TWO
-#Question 1
-'''
-This code is pretty long so I will attach my plan as a seperate PDF
-on gradescope
-'''
 def yes_or_no(string):
     new_string=input(string+ ' ')
     if ((new_string == 'yes') or (new_string == 'Yes') or \
@@ -50,7 +18,7 @@ def survival_game():
     intro_2 = "The only way to escape is by finding the portal to teleport back to NYU."
     start="Do you wish to proceed?"
     lake="Would you like to start at the lake?"
-    pocket="In your pocket is a pouch with a dagger, cheese, and a stick"
+    pocket="In your pocket is a pouch with a dagger, cheese, and a stick."
     lake_1="Will you use the dagger?"
     lake_2="Will you use the cheese?"
     frog="A frog is sitting on a box. Make him move. You can use the dagger or cheese."
